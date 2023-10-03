@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Gallery</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <h1>Recipe Gallery</h1>
+    <form id="addRecipe">
+      <label>
+        Recipe Name
+        <input type="text" name="title" placeholder="Recipe Name" />
+      </label>
+      <label>
+        Image URL
+        <input type="text" name="image_url" placeholder="Image URL" />
+      </label>
+      <label>
+        Instructions
+        <input type="text" name="instructions" placeholder="Instructions" />
+      </label>
+      <button>Add Recipe</button>
+    </form>
+    <ul id="recipes"></ul>
+  </body>
+</html>
